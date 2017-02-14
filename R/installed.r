@@ -26,7 +26,7 @@ save.package.list <- function(wd = NULL, file = NULL) {
   } else {
     sink(file)
   }
-  cat("Installed Packages \n")
+  cat("Installed R Packages \n")
   cat("------------------ \n\n")
   print(packages)
   sink()
