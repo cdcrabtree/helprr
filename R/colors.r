@@ -6,6 +6,15 @@
 #'@return Vector of character strings from the selected color palette.
 #'@importFrom graphics par plot rect text grDevices
 #'@examples
+#'\dontrun{
+#'# University of Michigan colors
+#'(pal = crabtree.colors("um"))
+#'pie(rep(1, length(pal)), labels = sprintf("%d (%s)", seq_along(pal), pal), col = pal)
+#'
+#'# Northwestern University colors
+#'(pal = crabtree.colors("nu"))
+#'pie(rep(1, length(pal)), labels = sprintf("%d (%s)", seq_along(pal), pal), col = pal)
+#'}
 #'@export
 
 crabtree.colors <- function(pick=c("nu", "psu", "cu", "um", "phistoric")) {
@@ -102,3 +111,4 @@ crabtree.colors <- function(pick=c("nu", "psu", "cu", "um", "phistoric")) {
          um = um,
          phistoric = phistoric)
 }
+
