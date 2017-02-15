@@ -2,7 +2,7 @@
 
 ## helprr
 
-In progress. Some 'helper,' or convenience, functions.
+Early days. Will contain some 'helper,' or convenience, functions.
 
 ## Package Installation
 The latest development version on GitHub can be installed using devtools.
