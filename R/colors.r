@@ -104,6 +104,24 @@ crabtree.colors <- function(pick=c("nu", "psu", "cu", "um", "phistoric")) {
                 "Rose Quartz" = "#F6CAC9",
                 "Serenity" = "#91A7D0")
 
+  ## Solarized colors (http://ethanschoonover.com/solarized)
+  solarized = c("Base03" = "#002B36",
+                "Base02" = "#073642",
+                "Base01" = "#657B83",
+                "Base00" = "#657B83",
+                "Base0" = "#93A1A1",
+                "Base1" = "#93A1A1",
+                "Base2" = "#EEE8D5",
+                "Base3" = "#FDF6E3",
+                "Yellow" = "#B58900",
+                "Orange" = "#CB4B16",
+                "Red" = "#DC322F",
+                "Magenta" = "#D33682",
+                "Violet" = "#6C71C4",
+                "Blue" = "#268BD2",
+                "Cyan" = "#2AA198",
+                "Green" = "#859900")
+
   switch(match.arg(pick),
          nu = nu,
          psu = psu,
