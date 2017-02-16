@@ -4,10 +4,10 @@
 \alias{crabtree.colors}
 \title{Designer and university colors}
 \usage{
-crabtree.colors(pick = c("nu", "psu", "cu", "um", "phistoric"))
+crabtree.colors(set = c("nu", "psu", "cu", "um", "phistoric"))
 }
 \arguments{
-\item{pick}{Character string denoting a color palette.}
+\item{set}{Character string denoting a color palette.}
 }
 \value{
 Vector of character strings from the selected color palette.

@@ -2,9 +2,8 @@
 #'@title Designer and university colors
 #'@description Function returns a vector of character strings from a selected color palette.
 #'@author Charles Crabtree \email{ccrabtr@umich.edu}
-#'@param pick Character string denoting a color palette.
+#'@param set Character string denoting a color palette.
 #'@return Vector of character strings from the selected color palette.
-#'@importFrom graphics par plot rect text grDevices
 #'@examples
 #'\dontrun{
 #'# University of Michigan colors
@@ -16,8 +15,10 @@
 #'pie(rep(1, length(pal)), labels = sprintf("%d (%s)", seq_along(pal), pal), col = pal)
 #'}
 #'@export
+#'@importFrom stats hclust dist
+#'@importFrom graphics par plot rect text
 
-crabtree.colors <- function(pick=c("nu", "psu", "cu", "um", "phistoric")) {
+crabtree.colors <- function(set=c("nu", "psu", "cu", "um", "phistoric")) {
   # Credit to https://github.com/kbroman/broman for some of the function code.
 
   ## Northwestern University official colors (http://www.northwestern.edu/brand/visual-identity/color/index.html)
@@ -122,7 +123,7 @@ crabtree.colors <- function(pick=c("nu", "psu", "cu", "um", "phistoric")) {
                 "Cyan" = "#2AA198",
                 "Green" = "#859900")
 
-  switch(match.arg(pick),
+  switch(match.arg(set),
          nu = nu,
          psu = psu,
          cu = cu,

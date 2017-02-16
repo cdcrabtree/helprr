@@ -4,14 +4,14 @@
 \alias{nba.colors}
 \title{NBA colors}
 \usage{
-nba.colors(pick = c("hawks", "hornets", "mavs", "warriors", "clippers",
-  "heat", "pelicans", "magic", "blazers", "raptors", "celtics", "bulls",
-  "nuggets", "rockets", "lakers", "bucks", "knicks", "sixers", "kings", "jazz",
-  "nets", "cavs", "pistons", "pacers", "grizzlies", "wolves", "thunder", "suns",
+nba.colors(set = c("hawks", "hornets", "mavs", "warriors", "clippers", "heat",
+  "pelicans", "magic", "blazers", "raptors", "celtics", "bulls", "nuggets",
+  "rockets", "lakers", "bucks", "knicks", "sixers", "kings", "jazz", "nets",
+  "cavs", "pistons", "pacers", "grizzlies", "wolves", "thunder", "suns",
   "spurs", "wizards", "sonics"))
 }
 \arguments{
-\item{pick}{Character string denoting an NBA team's color palette.}
+\item{set}{Character string denoting an NBA team's color palette.}
 }
 \value{
 Vector of character strings from the selected NBA team's color palette.

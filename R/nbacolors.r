@@ -2,9 +2,8 @@
 #'@title NBA colors
 #'@description Function returns a vector of character strings from a selected NBA team's color palette. The team options are c("hawks", "hornets", "mavs", "warriors", "clippers", "heat", "pelicans", "magic", "blazers", "raptors", "celtics", "bulls", "nuggets", "rockets", "lakers", "bucks", "knicks", "sixers", "kings", "jazz", "nets", "cavs", "pistons", "pacers", "grizzlies", "wolves", "thunder", "suns", "spurs", "wizards", "sonics")
 #'@author Charles Crabtree \email{ccrabtr@umich.edu}
-#'@param pick Character string denoting an NBA team's color palette.
+#'@param set Character string denoting an NBA team's color palette.
 #'@return Vector of character strings from the selected NBA team's color palette.
-#'@importFrom graphics par plot rect text grDevices
 #'@examples
 #'\dontrun{
 #'# Detroit Pistons colors
@@ -16,8 +15,10 @@
 #'pie(rep(1, length(pal)), labels = sprintf("%d (%s)", seq_along(pal), pal), col = pal)
 #'}
 #'@export
+#' @importFrom stats hclust dist
+#' @importFrom graphics par plot rect text
 
-nba.colors <- function(pick=c("hawks", "hornets", "mavs", "warriors", "clippers", "heat", "pelicans",
+nba.colors <- function(set=c("hawks", "hornets", "mavs", "warriors", "clippers", "heat", "pelicans",
                               "magic", "blazers", "raptors", "celtics", "bulls", "nuggets", "rockets",
                               "lakers", "bucks", "knicks", "sixers", "kings", "jazz", "nets", "cavs", "pistons",
                               "pacers", "grizzlies", "wolves", "thunder", "suns", "spurs", "wizards", "sonics")) {
@@ -177,7 +178,7 @@ nba.colors <- function(pick=c("hawks", "hornets", "mavs", "warriors", "clippers"
              "Sonics Yellow" = "#FCE10C",
              "White" = "#FFFFFF")
 
-  switch(match.arg(pick),
+  switch(match.arg(set),
          hawks = hawks,
          hornets = hornets,
          mavs = mavs,
