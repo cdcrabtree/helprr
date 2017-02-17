@@ -25,4 +25,3 @@ save.package.list(wd = "~/", file = "packages.txt")
 \author{
 Charles Crabtree \email{ccrabtr@umich.edu}
 }
-
