@@ -2,13 +2,16 @@
 
 ## helprr
 
-Contains some 'helper,' or convenience, functions and some color palettes.
+Contains some 'helper,' or convenience, functions, some color palettes, and some data.
 
 ### Utilities
 `save.package.list` creates and saves a list of installed packages to a text file. `divider` creates dividers that can be printed to screen or to file. 
 
 ### Color Palettes
 `crabtree.colors` contains several color palettes. They contain official university colors, Pantone swatches, and Solarized colors.
+
+### Data
+`cow.list` contains a list of state abbreviations, correlates of war country codes, and state names.
 
 ## Package Installation
 The latest development version on GitHub can be installed using devtools.

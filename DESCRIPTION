@@ -1,10 +1,10 @@
 Package: helprr
 Type: Package
-Title: Assorted Convenience Functions and Color Palettes
+Title: Assorted Convenience Functions, Color Palettes, and Data
 Version: 0.1.0
 Authors@R: person("Charles", "Crabtree", role = c("aut", "cre"),
                      email = "ccrabtr@umich.edu")
-Description: Some 'helper,' or convience, functions and color palettes.
+Description: Some 'helper,' or convenience, functions, some color palettes, and some data.
 License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
