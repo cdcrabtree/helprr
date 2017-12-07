@@ -1,6 +1,6 @@
 Package: helprr
 Type: Package
-Title: Assorted Convenience Functions, Color Palettes, and Data
+Title: Convenience Functions and Color Palettes to Improve R Use
 Version: 0.1.0
 Authors@R: person("Charles", "Crabtree", role = c("aut", "cre"),
                      email = "ccrabtr@umich.edu")

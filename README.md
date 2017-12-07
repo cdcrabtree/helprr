@@ -3,7 +3,11 @@
 ## helprr: Some 'helper,' or convenience, functions, some color palettes, and some data.
 
 ### Utilities
-`save.package.list` creates and saves a list of installed packages to a text file. `divider` creates dividers that can be printed to screen or to file. 
+`divider` creates dividers that can be printed to screen or to file. 
+
+A couple utilities let the user query for sports scores and have the results open in a new browser tab. `espn.scores` does this for ESPN and `si.scores` does this for Sports Illustrated. Another set of utilities let the user query for sports statistics and the results open in a new browser tab. `espn.stats` does this for ESPN and `si.stats` does this for Sports Illustrated.
+
+`reddits` allows the user to search for a word or phrase on Reddit and returns the results in a new browser tab.
 
 ### Color Palettes
 `crabtree.colors` contains several color palettes. They contain official university colors, Pantone swatches, and Solarized colors.
