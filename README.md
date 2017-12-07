@@ -1,6 +1,8 @@
 [![Build Status](https://travis-ci.org/cdcrabtree/helprr.svg?branch=master)](https://travis-ci.org/cdcrabtree/plotrr) [![Build status](https://ci.appveyor.com/api/projects/status/github/cdcrabtree/helprr?svg=true)](https://ci.appveyor.com/api/projects/status/github/cdcrabtree/)
 
-## helprr: Some 'helper,' or convenience, functions, some color palettes, and some data.
+## helprr: Convenience functions and color palettes to improve R use.
+
+These are my personal functions to improve (or make a bit more fun) my R working environment. They might be useful for others.
 
 ### Utilities
 `divider` creates dividers that can be printed to screen or to file. 
