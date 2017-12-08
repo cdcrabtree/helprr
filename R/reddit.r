@@ -8,5 +8,5 @@
 #' @export
 
 reddit <- function(find) {
-  browseURL(paste0("https://www.google.com/search?q=", URLencode(find)))
+  browseURL(paste0("https://www.reddit.com/search?q=", URLencode(find)))
 }
