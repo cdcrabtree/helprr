@@ -4,6 +4,7 @@
 #' @param x A data frame
 #' @examples
 #' x <- s(x)
+#' @importFrom stats IQR mad median sd
 #' @export
 
 s <- function(x) {

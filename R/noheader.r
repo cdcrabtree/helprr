@@ -4,6 +4,7 @@
 #' @param file File to be imported
 #' @examples
 #' data <- no.header("file")
+#' @import rio
 #' @export
 
 no.header <- function(x){
