@@ -3,8 +3,10 @@
 #' @description Turn proportions into percentages
 #' @param x Vector of fractional numbers
 #' @examples
+#' \dontrun{
 #' v <- c(0.061, 0.048, 0.10)
 #' percents(v)
+#' }
 #' @export
 
 percents <- function(x){

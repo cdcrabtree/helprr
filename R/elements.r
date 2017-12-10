@@ -3,7 +3,9 @@
 #' @description Count the number of elements in a data.frame, matrix, or vector
 #' @param x A data.frame, matrix, or vector.
 #' @examples
+#' \dontrun{
 #' elements("x")
+#' }
 #' @export
 
 elements <- function(x) {

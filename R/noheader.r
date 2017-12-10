@@ -1,9 +1,11 @@
 #--- Import no header function --#
 #' @title Import without header
 #' @description Read in a data.frame from a file without a header
-#' @param file File to be imported
+#' @param x File to be imported
 #' @examples
+#' \dontrun{
 #' data <- no.header("file")
+#' }
 #' @import rio
 #' @export
 

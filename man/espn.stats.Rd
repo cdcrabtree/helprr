@@ -13,5 +13,7 @@ espn.stats(x)
 Open ESPN's statistics for one of several leagues in a new browser tab
 }
 \examples{
+\dontrun{
 espn.stats("nba")
+}
 }

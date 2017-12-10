@@ -13,5 +13,7 @@ si.scores(x)
 Open SI's scoreboard for one of several leagues in a new browser tab
 }
 \examples{
+\dontrun{
 si.scores("nba")
+}
 }

@@ -3,7 +3,9 @@
 #' @description Get descriptive statistics for a data frame.
 #' @param x A data frame
 #' @examples
+#' \dontrun{
 #' x <- s(x)
+#' }
 #' @importFrom stats IQR mad median sd
 #' @export
 

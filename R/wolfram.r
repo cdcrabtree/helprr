@@ -3,7 +3,9 @@
 #' @description Enter a WolframAlpha search in R and have the results opened in a new browser tab
 #' @param find The words (or words) you want to find, wrapped with quote (" ") marks.
 #' @examples
+#' \dontrun{
 #' wolfram("toronto maple leafs")
+#' }
 #' @importFrom utils URLencode browseURL
 #' @export
 

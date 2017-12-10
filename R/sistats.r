@@ -3,7 +3,9 @@
 #' @description Open SI's statistics for one of several leagues in a new browser tab
 #' @param x One of several sports leagues (e.g., MLB, NBA, NFL, NHL)
 #' @examples
+#' \dontrun{
 #' si.stats("nba")
+#' }
 #' @importFrom utils URLencode browseURL
 #' @export
 

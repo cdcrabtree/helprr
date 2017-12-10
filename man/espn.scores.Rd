@@ -13,5 +13,7 @@ espn.scores(x)
 Open ESPN's scoreboard for one of several leagues in a new browser tab
 }
 \examples{
+\dontrun{
 espn.scores("nba")
+}
 }

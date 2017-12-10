@@ -13,5 +13,7 @@ si.stats(x)
 Open SI's statistics for one of several leagues in a new browser tab
 }
 \examples{
+\dontrun{
 si.stats("nba")
+}
 }

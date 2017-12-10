@@ -13,5 +13,7 @@ reddit(find)
 Enter a Reddit search in R and have the results opened in a new browser tab
 }
 \examples{
+\dontrun{
 reddit("toronto maple leafs")
+}
 }
