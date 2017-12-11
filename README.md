@@ -9,6 +9,8 @@ These are my personal functions to improve (or make a bit more fun) my R working
 
 `s` takes in a data frame and returns several statistics: mean, median, standard deviation, mean absolute deviation, and the interquartile range.
 
+`rescale01` rescales a vector so its elements fall between 0 and 1.
+
 `elements` counts the number of elements in a data.frame, matrix, or vector.
 
 `divider` creates dividers that can be printed to screen or to file. This is useful to call if printing multiple things to a text file, for instance.
