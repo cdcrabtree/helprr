@@ -5,15 +5,19 @@
 These are my personal functions to improve (or make a bit more fun) my R working environment. They might be useful for others.
 
 ### Utilities
-`fix.missing` takes in a vector and a missing code (e.g., "-99", "-999") and returns a vector with missing items coded as NA.
-
-`s` takes in a data frame and returns several statistics: mean, median, standard deviation, mean absolute deviation, and the interquartile range.
-
-`rescale01` rescales a vector so its elements fall between 0 and 1.
+`divider` creates dividers that can be printed to screen or to file. This is useful to call if printing multiple things to a text file, for instance.
 
 `elements` counts the number of elements in a data.frame, matrix, or vector.
 
-`divider` creates dividers that can be printed to screen or to file. This is useful to call if printing multiple things to a text file, for instance.
+`fix.missing` takes in a vector and a missing code (e.g., "-99", "-999") and returns a vector with missing items coded as NA.
+
+`mode` returns the modal value of a vector.
+
+`percents` turns a vector of proportions into percentages.
+
+`rescale01` rescales a vector so its elements fall between 0 and 1.
+
+`s` takes in a data frame and returns several statistics: mean, median, standard deviation, mean absolute deviation, and the interquartile range.
 
 A couple utilities let the user query for sports scores and have the results open in a new browser tab. `espn.scores` does this for ESPN and `si.scores` does this for Sports Illustrated. Another set of utilities let the user query for sports statistics and the results open in a new browser tab. `espn.stats` does this for ESPN and `si.stats` does this for Sports Illustrated.
 
