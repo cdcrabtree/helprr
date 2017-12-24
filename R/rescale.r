@@ -11,3 +11,4 @@
 #' @export
 
 rescale01 <- function(x, ...){(x - min(x, ...)) / (max(x, ...) - min(x, ...))}
+rescale0100 <- function(x, ...){((x - min(x, ...)) / (max(x, ...) - min(x, ...)))*100}

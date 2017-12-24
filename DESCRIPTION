@@ -1,10 +1,10 @@
 Package: helprr
 Type: Package
-Title: Convenience Functions and Color Palettes to Improve R Use
+Title: Convenience Functions for Data Preparation and Summarization
 Version: 0.5.0
 Authors@R: person("Charles", "Crabtree", role = c("aut", "cre"),
                      email = "ccrabtr@umich.edu")
-Description: Some 'helper,' or convenience, functions, some color palettes, and some data.
+Description: Some 'helper,' or convenience, functions for data preparation and summarization.
 License: MIT + file LICENSE
 Depends: R (>= 2.10)
 Encoding: UTF-8
@@ -12,4 +12,3 @@ LazyData: true
 RoxygenNote: 6.0.1
 Imports: stats,
          utils,
-         rio

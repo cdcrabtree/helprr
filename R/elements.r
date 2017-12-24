@@ -10,7 +10,7 @@
 
 elements <- function(x) {
   if(is.list(x)) {
-    do.call(sum,lapply(x, elements))
+    do.call(sum, lapply(x, elements))
   } else {
     length(x)
   }
